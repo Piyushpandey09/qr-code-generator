@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hwb(187 0% 89%);
+}
+
+.qr-generator-container {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.qr-settings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.qr-settings label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-settings input[type="number"],
+.qr-settings input[type="color"] {
+  margin-top: 5px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.clear-button {
+  background-color: #6c757d;
+}
+
+.clear-button:hover {
+  background-color: #5a6268;
+}
+
+.qr-code {
+  margin-top: 20px;
+}
